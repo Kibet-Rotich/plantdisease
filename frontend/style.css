@@ -1,0 +1,21 @@
+/* Custom smooth scrollbar for the telemetry logs terminal */
+#terminal-logs::-webkit-scrollbar {
+    width: 6px;
+}
+#terminal-logs::-webkit-scrollbar-track {
+    background: #0f172a;
+    border-radius: 4px;
+}
+#terminal-logs::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 4px;
+}
+#terminal-logs::-webkit-scrollbar-thumb:hover {
+    background: #475569;
+}
+
+/* Drag and drop highlight effects */
+.drag-over {
+    border-color: #10b981 !important;
+    background-color: rgba(16, 185, 129, 0.05) !important;
+}
